@@ -77,17 +77,6 @@ Features:
 
 ## Visualizations
 
-### Feature Importance
-Shows key drivers of churn prediction.
-
-Insight:
-Tenure and monthly charges are strong churn predictors.
-
-Why it matters:
-Helps business understand churn drivers.
-
----
-
 ### Survival Curve
 Shows probability customers remain active over time.
 
@@ -97,7 +86,23 @@ Steep drop indicates high churn risk period.
 Why it matters:
 Determines optimal retention timing.
 
+![Survival Curve](plots/survival_curve.png)
+
 ---
+
+### Churn by Tenure
+Shows relation between tenure and churn.
+
+Insight:
+Customers with shorter tenures tend to churn more.
+
+Why it matters:
+Focus retention budget on customers who have been with the company longer.
+
+![Churn v tenure](plots/tenure_churn.png)
+
+---
+
 
 ### CLV Distribution
 Shows spread of customer value.
@@ -107,6 +112,8 @@ Small group contributes large revenue.
 
 Why it matters:
 Focus retention budget on high-value customers.
+
+![CLV Distribution](plots/clv_dist_plot.png)
 
 ---
 
@@ -118,6 +125,8 @@ Customers can be divided into high/medium/low risk.
 
 Why it matters:
 Automates retention targeting.
+
+![Churn Probability](plots/churn_proba.png)
 
 ---
 
